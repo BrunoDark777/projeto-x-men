@@ -1,6 +1,6 @@
 body{
     font-family: 'Oxanium', cursive;
-    background-color: #000000;
+    background-color: hsl(0, 0%, 0%);
     color: #ffffff;
 }
 
@@ -54,13 +54,17 @@ body::before{
     text-align: center;
 }
 
+.lista-de-personagens .personagem{
+    border-bottom: 4px solid #47f4ff;
+}
+
 .lista-de-personagens .personagens img{
     width: 100%;
     height: 100%;
 }
 
 .lista-de-personagens .personagem.selecionado{
-    box-shadow: 0px 0px 24px 5px #0271f1;
+    box-shadow: 0px 0px 24px 5px #0271f7;
 }
 
 .personagem-selecionado{
@@ -76,7 +80,7 @@ body::before{
     text-transform: uppercase;
 }
 
-.personagem-selecionado .selecao-de-personagem{
+.personagem-selecionado .delecao-de-personagem{
     font-size: 16px;
     line-height: 22px;
     text-align: center;
